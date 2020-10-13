@@ -234,5 +234,6 @@ help:
 
 clean:
 	rm -f $(OBJ) "$(LIBDIR)"/$(ARLIB) "$(LIBDIR)"/$(SHLIB) "$(LIBDIR)"/$(LIBNAME).so
-
+distclean:
+	@echo 'AngelScript already clean'
 .PHONY: all clean install install_all install_docs install_header install_samples install_shared install_static shared static uninstall

@@ -17,8 +17,8 @@
 #include "as_connect.h"
 
 // Add Ons
-#include "as/scriptstdstring.h"
-#include "as/scriptbuilder.h"
+#include "scriptstdstring/scriptstdstring.h"
+#include "scriptbuilder/scriptbuilder.h"
 
 using namespace std;
 
